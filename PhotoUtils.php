@@ -1,6 +1,6 @@
 <?php
 class PhotoUtils {
-	public static function createThumb($src, $maxWidth, $maxHeight) {
+	public static function createThumbnail($src, $maxWidth, $maxHeight) {
 		$dest = substr($src, 0, strrpos($src, "."));
 		$dest .= "_thumb";
 		$dest .= substr($src, strrpos($src, "."));
